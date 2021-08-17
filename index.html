@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <h1>Hola señor chanchito</h1>
+
+    <select id="Myselect" onchange={Myselect()}>
+        <option value="Audi">Audi</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Bmw">Bmw</option>
+    </select>
+    
+    <span>Tu auto sellecionado es: </span>
+    <span id="resultado"></span>
+
+    <div>
+        <h2>input onchanges</h2>
+        <input onchange={input()}  type="text"  id="input">
+    </div>
+
+    <div>
+        <h2>opciones de helado</h2>
+        <select class="helado" name="helado" id="helado">
+            <option value="frutila">frutilla</option>
+            <option value="vainilla">vainilla</option>
+            <option value="cholate">cholate</option>
+        </select>
+    </div>
+    <span>Tu helado sellecionado es: </span>
+    <span class="resultado"></span>
+
+    <script src="main.js"></script>
+</body>
+</html>
